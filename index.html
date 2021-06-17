@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description" content="Aprendizaje de lenguajes de programación desde cero"/>
+    <title>Programacion desde cero</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <style>
+#cabecera{
+background-image: url('assets/img/arbol.webp');
+height: 400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+header #texto {
+height: 170%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+header #texto h1{
+  background-color:rgba(68, 148, 3, 0.603);
+  color: aliceblue;
+  font-size: 28pt;
+  border-radius: 10px;
+}
+body{
+  margin: 0;
+}
+#div_superior{
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+/******************************** elementos********************************/
+article .elementos{
+  text-align: center;
+  word-wrap: break-word;
+  width: calc(100%/2); 
+  
+}
+article .elementos:nth-child(2) video{
+  margin-top: 5%;
+  width: 100%;
+  height: 350px;
+}
+
+/******************************* elementos 2 ****************************/
+article .elementos_2{
+ 
+  text-align: center;
+  word-wrap: break-word;
+  width: calc(100%/2);
+  height: 400px;
+}
+article .elementos_2:nth-child(2){
+
+background-image: url("assets/img/naranjal_sustentable.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div id="div_superior">
+      <header id="cabecera">
+        <div id="texto">
+          <h1>Naranjal Sustentable</h1>
+        </div>
+      </header>
+      <article>
+        <div class="container">
+          <div class="elementos_2">
+             <h1 style="text-align: center;font-family: 'Roboto Slab', serif;"> PROYECTO NARANJAL SUSTENTABLE </h1> 
+              <p style="font-family: 'Roboto Slab', serif;">
+                Es un proyecto de desarrollo local de iniciativa público – privada entre la Municipalidad de Naranjal y la Cooperativa de Producción Agropecuaria Naranjal (COPRONAR), 
+                con el apoyo de entes colegas vinculados a la puesta en práctica de las distintas legislaciones nacionales e internacionales con criterios de sustentabilidad, cuyo fin
+                 es mejorar la calidad de vida de sus habitantes a través del manejo, recuperación y restauración de los recursos naturales, planificación territorial, aplicación gradual
+                  de las buenas prácticas en las diversas actividades de la comunidad. “Una ciudad para vivir, trabajar e invertir en armonía con el ambiente”.
+              </p>
+          </div>
+          <div class="elementos_2">
+            
+          </div>
+        </div>
+        <div class="container">
+          <div class="elementos">
+            <h1>Água</h1>
+            <img src="assets/img/gota_agua.jpeg" height="150px" alt="" srcset="">
+         <p style="font-family: 'Roboto Slab', serif;"> Las regiones deforestadas no pueden absorber ni el 10% del agua de lluvias,
+           mientras que un árbol adulto puede absorber hasta 250 litros de agua, evitando que se produzcan inundaciones. Además, 
+           las raíces refuerzan el suelo y las hojas dispersan el flujo de agua. Un entorno boscoso evita que la lluvia caiga torrencialmente,
+            por lo que el agua penetra en el suelo y abastece a los ríos y arroyos.</p>
+      
+          </div>
+       
+          <div class="elementos">
+            
+            <video   controls >
+              <source src="assets/videos/video_naranjal.webm" type="video/webm">
+            </video>
+
+          </div> 
+        </div>  
+    
+     
+      </article>
+    
+    </div>
+    <footer style="text-align: right; height: 10%; background-color: rgba(0, 128, 128, 0.404);">
+      Desarollado por : &copy; Evandro Santos Dattein
+    </footer>
+ 
+  </body>
+</html>
